@@ -1,0 +1,16 @@
+
+#gameConLogo
+{
+	display:block;
+	margin-top:0%;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	height:50%;
+	padding:0px;
+}
+h6
+{
+	font: bold 40pt 'Helvetica';
+	text-align:center;
+}

@@ -1,0 +1,4 @@
+light gray: #cfcfcf
+white: #ffffff
+black: #0c0c0c
+dark gray: #231f20
