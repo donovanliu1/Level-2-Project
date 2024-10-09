@@ -18,15 +18,14 @@ a
 {
     color:white;
     text-decoration: none;
-    padding-right: 50px
+    margin: 50px;
 }
 #header
 {
     position: relative;
     width: 100%;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-top: 30px;
     text-align: center;
     background: #0C0C0C;
     font: bold 30px 'Helvetica'; 
@@ -34,7 +33,7 @@ a
 #smallLogoDiv
 {
     position:absolute;
-    top: 6px;
+    top: 13px;
     left: 100px;
 
 }
@@ -53,25 +52,42 @@ a
 }
 #holder
 {
-    width: 1400px;
+    width: 1800px;
+    height: 2000px;
     font:30px 'Helvetica';
     margin:auto;
     align-self: center;
 }
 #eventsDiv
 {
-    width:600px;
+    width:750px;
     float:left;
     height:300px;
     padding:40px;
 }
+#separatorDiv
+{
+    width:2px;
+    float:left;
+    height:1000px;
+    background-color:#333333;
+    background-clip:content-box;
+    padding: 10px;
+    padding-top: 50px;
+    
+}
 #guestsDiv
 {
-    width:600px;
+    width:750px;
     float:left;
     height:300px;
     padding:40px;
 
+}
+#nintendoBooth
+{
+    float:left;
+    width:60%;
 }
 #clear
 {
