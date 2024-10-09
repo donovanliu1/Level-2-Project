@@ -7,7 +7,7 @@
 		
 		<style>
 		</style>
-		<link rel = "stylesheet" href = "gameconheading.css" />
+		<link rel = "stylesheet" href = "guests.css" />
 		<script>
 			function initialize()
 			{
@@ -16,13 +16,19 @@
 	</head>
 	
 	<body onload = "initialize();">
-		<div>
-			<a href = "home/home.html">Home</a>
-			<a href = "events/events.html">Events</a>
-			<a href = "guests/guests.html">Guests</a>
+		<div id = header>
+			<div id = "smallLogoDiv">
+				<img id = "smallLogo" src = "../GameConSmallLogo.png"/>
+			</div>
+			<span>
+				<a href = "../home/home.html">Home</a>
+				<a href = "../events/events.html">Events</a>
+				<a href = "guests.html">Guests</a>
+			</span>
 		</div>
-		<img id = "gameConLogo" src = "../GameConLogo.png"/>
-
+		<div id = "logoDiv">
+			<img id = "gameConLogo" src = "../GameConLogoTextless.png"/>
+		</div>
 		<hr />
 	</body>
 </html>

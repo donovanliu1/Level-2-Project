@@ -1,0 +1,60 @@
+#gameConLogo
+{
+	display:block;
+	margin-top:0%;
+	margin-left:auto;
+	margin-right:auto;
+	width:35%;
+	height:35%;
+	padding:0px;
+}
+body
+{
+    margin: 0%;
+    background: #231F20;
+}
+a
+{
+    color:white;
+    text-decoration: none;
+    padding-right: 50px
+}
+#header
+{
+    position: relative;
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    text-align: center;
+    background: #0C0C0C;
+    font: bold 30px 'Helvetica'; 
+}
+#smallLogoDiv
+{
+    position:absolute;
+    top: 6px;
+    left: 100px;
+
+}
+#smallLogo
+{
+    display: block;
+    width: 35%;
+    height: auto;
+}
+#darkDiv
+{
+    display: flex;
+    background: #0C0C0C;
+    font: 30px 'Helvetica'
+}
+#eventsDiv
+{
+
+}
+h6
+{
+	font: bold 40pt 'Helvetica';
+	text-align:center;
+}
