@@ -12,6 +12,7 @@ body
 {
     margin: 0%;
     background: #231F20;
+    color:white;
 }
 a
 {
@@ -47,11 +48,40 @@ a
 {
     display: flex;
     background: #0C0C0C;
-    font: 30px 'Helvetica'
+    font: 30px 'Helvetica';
+    margin:auto;
+}
+#holder
+{
+    width: 1400px;
+    font:30px 'Helvetica';
+    margin:auto;
+    align-self: center;
 }
 #eventsDiv
 {
+    width:600px;
+    float:left;
+    height:300px;
+    padding:40px;
+}
+#guestsDiv
+{
+    width:600px;
+    float:left;
+    height:300px;
+    padding:40px;
 
+}
+#clear
+{
+    clear:both;
+}
+h1
+{
+    font: bold 40pt 'Helvetica';
+    text-align:center;
+    color:white
 }
 h6
 {
