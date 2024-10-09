@@ -48,9 +48,15 @@ a
     display: flex;
     background: #0C0C0C;
     font: 30px 'Helvetica';
+    width:1920px;
+    height:1000px;
     margin:auto;
 }
-#holder
+#homeText
+{
+    text-align: center;
+}
+/* #holder
 {
     width: 1800px;
     height: 2000px;
@@ -89,6 +95,13 @@ a
     float:left;
     width:60%;
 }
+#shigeruMiyamoto
+{
+    float:left;
+    width: 60%;
+    height: 40;
+    margin-right:10px;
+} */
 #clear
 {
     clear:both;
