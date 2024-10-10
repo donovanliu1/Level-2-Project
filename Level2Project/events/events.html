@@ -10,14 +10,41 @@
 		</style>
 		<link rel = "stylesheet" href = "events.css" />
 		<script>
-			function initialize()
+			let showingEventOne, showingEventTwo, showingEventThree;
+			let detailsDivOutputOne, detailsDivOutputTwo, detailsDivOutputThree;
+			window.onload = function()
 			{
+				initialize();
+			}
+
+			const initialize = () =>
+			{
+				showingEventOne = false;
+				showingEventTwo = false;
+				showingEventThree = false;
+				detailsDivOutputOne = document.getElementById("detailsDivOne");
+				detailsDivOutputTwo = document.getElementById("detailsDivTwo");
+				detailsDivOutputThree = document.getElementById("detailsDivThree");
+			}
+			const showEventOne = () =>
+			{
+				showingEventOne = !showingEventOne;
+				console.log(showingEventOne);
+				showingEventOne ? detailsDivOutputOne.innerHTML = "If you're a fan of Nintendo games, then this booth is the spot for you!<br><br>Dates: All event<br>Times: 12:00 PM to 5:00 PM" : detailsDivOutputOne.innerHTML = "";
+			}
+			const showEventTwo = () =>
+			{
+				showingEventTwo = !showingEventTwo;
+			}
+			const showEventThree = () =>
+			{
+				showingEventThree = !showingEventThree;
 			}
 		</script>
 	</head>
 	
-	<body onload = "initialize();">
-		<div id = header>
+	<body>
+		<div id = "header">
 			<div id = "smallLogoDiv">
 				<img id = "smallLogo" src = "../GameConSmallLogo.png"/>
 			</div>
@@ -30,7 +57,18 @@
 		<div id = "logoDiv">
 			<img id = "gameConLogo" src = "../GameConLogoTextless.png"/>
 		</div>
-
+		<div id = "darkDiv">
+			<h1>Events</h1>
+			<div id = "eventHolder">
+				<div id = "eventImageDiv">
+					<img id = "nintendoBooth" src = "../NintendoBooth.png"/>
+				</div>
+				<div id = "showDetailsDiv" onclick = "showEventOne();">
+					<img id = "showArrow" src = "../showArrow.png"/>
+				</div>
+				<div id = "detailsDivOne"><p></p></div>
+			</div>
+		</div>
 		<hr />
 	</body>
 </html>

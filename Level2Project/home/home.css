@@ -45,7 +45,8 @@ a
 }
 #darkDiv
 {
-    display: flex;
+    padding-top:50px;
+    display: block;
     background: #0C0C0C;
     font: 30px 'Helvetica';
     width:1920px;
@@ -55,6 +56,17 @@ a
 #homeText
 {
     text-align: center;
+    margin-left:250px;
+    margin-right:250px;
+}
+#boldItalic
+{
+    font-weight: bold;
+    font-style: italic;
+}
+#bold
+{
+    font-weight:bold;
 }
 /* #holder
 {

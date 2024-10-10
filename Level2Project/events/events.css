@@ -12,6 +12,7 @@ body
 {
     margin: 0%;
     background: #231F20;
+    color:white;
 }
 a
 {
@@ -45,5 +46,60 @@ a
 #logoDiv
 {
     padding-top: 50px;
+    padding-bottom: 25px;
     background: #231F20;
+}
+#darkDiv
+{
+    padding-top:50px;
+    display: block;
+    background: #0C0C0C;
+    font: 30px 'Helvetica';
+    width:1920px;
+    height:2000px;
+    margin:auto;
+}
+h1
+{
+    text-align: center;
+}
+#eventHolder
+{
+    width: 1800px;
+    height: 2000px;
+    font:30px 'Helvetica';
+    margin:auto;
+    align-self: center;
+}
+#eventImageDiv
+{
+    width: 700px;
+    height: 300px;
+    padding: 40px;
+    float:left;
+}
+#nintendoBooth
+{
+    float:left;
+    width:100%;
+}
+#showDetailsDiv
+{
+    float:left;
+    width: 250px;
+    height: 2000px;
+    padding-top: 150px; 
+    padding-left: 25px;
+}
+#showArrow
+{
+    float:left;
+
+}
+#detailsDivOne
+{
+    padding-top: 160px;
+    width: 600px;
+    float: left;
+    color: white;
 }
