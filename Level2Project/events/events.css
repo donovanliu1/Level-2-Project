@@ -68,8 +68,10 @@ h1
     width: 1800px;
     height: 400px;
     font:30px 'Helvetica';
-    margin:auto;
-    align-self: center;
+    margin-left:100px;
+    float:left;
+    margin-bottom: 200px;
+    /* align-self: center; */
 }
 #eventImageDiv
 {
@@ -95,6 +97,10 @@ h1
     height: 2000px;
     padding-top: 150px; 
     padding-left: 25px;
+}
+#clear
+{
+    clear:both;
 }
 #showArrow
 {
