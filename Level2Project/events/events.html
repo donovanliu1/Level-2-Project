@@ -29,12 +29,12 @@
 			const showEventOne = () =>
 			{
 				showingEventOne = !showingEventOne;
-				console.log(showingEventOne);
 				showingEventOne ? detailsDivOutputOne.innerHTML = "If you're a fan of Nintendo games, then this booth is the spot for you!<br><br>Dates: All event<br>Times: 12:00 PM to 5:00 PM" : detailsDivOutputOne.innerHTML = "";
 			}
 			const showEventTwo = () =>
 			{
 				showingEventTwo = !showingEventTwo;
+				showingEventTwo ? detailsDivOutputThree.innerHTML = "Are you a fan of souls-like games? Then Elden Ring is a great game for you! Visit the Elden Ring booth for a chance to win free Elden Ring merchandise!<br><br>Dates: All event<br>Times: 9 AM to 3 PM" : detailsDivOutputTwo.innerHTML = "";
 			}
 			const showEventThree = () =>
 			{
@@ -63,15 +63,20 @@
 				<div id = "eventImageDiv">
 					<img id = "nintendoBooth" src = "../NintendoBooth.png"/>
 				</div>
-				<div id = "showDetailsDiv" onclick = "showEventOne();">
-					<img id = "showArrow" src = "../showArrow.png"/>
+				<div id = "showDetailsDiv">
+					<img id = "showArrow" onclick = "showEventOne();" src = "../showArrow.png"/>
 				</div>
 				<div id = "detailsDivOne"><p></p></div>
 			</div>
+			<div id = "clear"></div>
 			<div id = "eventHolder">
 				<div id = "eventImageDiv">
 					<img id = "eldenRingBooth" src = "../EldenRingBooth.jpg"/>
 				</div>
+				<div id = "showDetailsDiv">
+					<img id = "showArrow" onclick = "showEventTwo();" src = "../showArrow.png"/>
+				</div>
+				<div id = "detailsDivTwo"><p></p></div>
 			</div>
 		</div>
 	</body>
