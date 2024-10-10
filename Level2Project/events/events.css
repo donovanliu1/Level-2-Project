@@ -57,7 +57,7 @@ a
     font: 30px 'Helvetica';
     width:1920px;
     height:2000px;
-    margin:auto;
+    /* margin:auto; */
 }
 h1
 {
@@ -66,7 +66,7 @@ h1
 #eventHolder
 {
     width: 1800px;
-    height: 2000px;
+    height: 400px;
     font:30px 'Helvetica';
     margin:auto;
     align-self: center;
@@ -79,6 +79,11 @@ h1
     float:left;
 }
 #nintendoBooth
+{
+    float:left;
+    width:100%;
+}
+#eldenRingBooth
 {
     float:left;
     width:100%;
