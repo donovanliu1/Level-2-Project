@@ -48,3 +48,83 @@ a
     padding-top: 50px;
     background: #231F20;
 }
+#darkDiv
+{
+    padding-top:50px;
+    display: block;
+    background: #0C0C0C;
+    font: 30px 'Helvetica';
+    width:1920px;
+    height:2000px;
+    /* margin:auto; */
+}
+h1
+{
+    text-align: center;
+}
+#showDetailsDiv
+{
+    float:left;
+    width: 250px;
+    height: 250px;
+    margin-top: 200px; 
+    margin-left: 25px;
+}
+#clear
+{
+    clear:both;
+}
+#showArrow
+{
+    float:left;
+    width:50%;
+    height:50%;
+}
+#detailsDivOne
+{
+    padding-top: 10px;
+    width: 600px;
+    float: left;
+    color: white;
+}
+#detailsDivTwo
+{
+    width: 600px;
+    float:left;
+    color:white;
+}
+#detailsDivThree
+{ 
+    width: 600px;
+    float:left;
+    color:white;
+}
+#guestName
+{
+    margin-top:100px;
+}
+#guestImageDiv
+{
+    width: 700px;
+    height: 300px;
+    margin: 40px;
+    float:left;
+}
+#guestHolder
+{
+    width: 1800px;
+    height: 400px;
+    font:30px 'Helvetica';
+    margin-left:150px;
+    float:left;
+    margin-bottom: 200px;
+    /* align-self: center; */
+}
+#senTenz
+{
+    width:75%;
+}
+#miyamoto
+{
+    width:75%;
+}

@@ -10,16 +10,39 @@
 		<link rel = "stylesheet" href = "guests.css" />
 		<script>
 			let showingGuestOne, showingGuestTwo, showingGuestThree;
-			function initialize()
+			let detailsDivOutputOne, detailsDivOutputTwo, detailsDivOutputThree;
+			window.onload = function()
+			{
+				initialize();
+			}
+			const initialize = () =>
 			{
 				showingGuestOne = false;
 				showingGuestTwo = false;
 				showingGuestThree = false;
+				detailsDivOutputOne = document.getElementById("detailsDivOne");
+				detailsDivOutputTwo = document.getElementById("detailsDivTwo");
+				detailsDivOutputThree = document.getElementById("detailsDivThree");
+			}
+			const showGuestOne = () =>
+			{
+				showingGuestOne = !showingGuestOne;
+				showingGuestOne ? detailsDivOutputOne.innerHTML = "SEN TENZ MY GOAT" : detailsDivOutputOne.innerHTML = "";
+			}
+			const showGuestTwo = () =>
+			{
+				showingGuestTwo = !showingGuestTwo;
+				showingGuestTwo ? detailsDivOutputTwo.innerHTML = "nintendo daddy" : detailsDivOutputTwo.innerHTML = "";
+			}
+			const showGuestThree = () =>
+			{
+				showingGuestThree = !showingGuestThree;
+				showingGuestThree ? detailsDivOutputThree.innerHTML = "who the fuck" : detailsDivOutputThree.innerHTML = "";
 			}
 		</script>
 	</head>
 	
-	<body onload = "initialize();">
+	<body>
 		<div id = header>
 			<div id = "smallLogoDiv">
 				<img id = "smallLogo" src = "../GameConSmallLogo.png"/>
@@ -32,6 +55,28 @@
 		</div>
 		<div id = "logoDiv">
 			<img id = "gameConLogo" src = "../GameConLogoTextless.png"/>
+		</div>
+		<div id = "darkDiv">
+			<h1>Guests</h1>
+			<div id = "guestHolder">
+				<div id = "guestImageDiv">
+					<img id = "senTenz" src = "../tenz.jpg"/>
+				</div>
+				<div id = "showDetailsDiv">
+					<img id = "showArrow" onclick = "showGuestOne();" src = "../showArrow.png"/>
+				</div>
+				<div id = "detailsDivOne"><p></p></div>
+			</div>
+			<div id = "clear"></div>
+			<div id = "guestHolder">
+				<div id = "guestImageDiv">
+					<img id = "miyamoto" src = "../ShigeruMiyamoto.jpg"/>
+				</div>
+				<div id = "showDetailsDiv">
+					<img id = "showArrow" onclick = "showGuestTwo();" src = "../showArrow.png"/>
+				</div>
+				<div id = "detailsDivTwo"><p></p></div>
+			</div>
 		</div>
 		<hr />
 	</body>

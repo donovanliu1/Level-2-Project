@@ -34,11 +34,12 @@
 			const showEventTwo = () =>
 			{
 				showingEventTwo = !showingEventTwo;
-				showingEventTwo ? detailsDivOutputThree.innerHTML = "Are you a fan of souls-like games? Then Elden Ring is a great game for you! Visit the Elden Ring booth for a chance to win free Elden Ring merchandise!<br><br>Dates: All event<br>Times: 9 AM to 3 PM" : detailsDivOutputTwo.innerHTML = "";
+				showingEventTwo ? detailsDivOutputTwo.innerHTML = "Are you a fan of souls-like games? If you are, then Elden Ring is a great game for you! Visit the Elden Ring booth for a chance to win free Elden Ring merchandise!<br><br>Dates: All event<br>Times: 9:00 AM to 3:00 PM" : detailsDivOutputTwo.innerHTML = "";
 			}
 			const showEventThree = () =>
 			{
 				showingEventThree = !showingEventThree;
+				showingEventThree ? detailsDivOutputThree.innerHTML = "Have you ever played League of Legends or Valorant? If so, this booth is the spot for you! Visit the Riot Games booth for a chance to win free Riot Games merchanise!<br><br>Dates: All event<br>Times: 11:00 AM to 4:00 PM" : detailsDivOutputThree.innerHTML = "";
 			}
 		</script>
 	</head>
@@ -66,6 +67,7 @@
 				<div id = "showDetailsDiv">
 					<img id = "showArrow" onclick = "showEventOne();" src = "../showArrow.png"/>
 				</div>
+				<h4 id = "eventName">Nintendo Booth</h4>
 				<div id = "detailsDivOne"><p></p></div>
 			</div>
 			<div id = "clear"></div>
@@ -76,8 +78,21 @@
 				<div id = "showDetailsDiv">
 					<img id = "showArrow" onclick = "showEventTwo();" src = "../showArrow.png"/>
 				</div>
+				<h4 id = "eventName">Elden Ring Booth</h4>
 				<div id = "detailsDivTwo"><p></p></div>
 			</div>
+			<div id = "clear"></div>
+			<div id = "eventHolder">
+				<div id = "eventImageDiv">
+					<img id = "riotGamesBooth" src = "../RiotGamesBooth.jpg"/>
+				</div>
+				<div id = "showDetailsDiv">
+					<img id = "showArrow" onclick = "showEventThree();" src = "../showArrow.png"/>
+				</div>
+				<h4 id = "eventName">Riot Games Booth</h4>
+				<div id = "detailsDivThree"><p></p></div>
+			</div>
+			<div id = "clear"></div>
 		</div>
 	</body>
 </html>
