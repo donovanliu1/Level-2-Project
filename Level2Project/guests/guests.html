@@ -10,7 +10,7 @@
 		<link rel = "stylesheet" href = "guests.css" />
 		<script>
 			let showingGuestOne, showingGuestTwo, showingGuestThree;
-			let detailsDivOutputOne, detailsDivOutputTwo, detailsDivOutputThree;
+			let detailsDivOutputOne, detailsDivOutputTwo;
 			window.onload = function()
 			{
 				initialize();
@@ -22,22 +22,16 @@
 				showingGuestThree = false;
 				detailsDivOutputOne = document.getElementById("detailsDivOne");
 				detailsDivOutputTwo = document.getElementById("detailsDivTwo");
-				detailsDivOutputThree = document.getElementById("detailsDivThree");
 			}
 			const showGuestOne = () =>
 			{
 				showingGuestOne = !showingGuestOne;
-				showingGuestOne ? detailsDivOutputOne.innerHTML = "SEN TENZ MY GOAT" : detailsDivOutputOne.innerHTML = "";
+				showingGuestOne ? detailsDivOutputOne.innerHTML = "Valorant legend SEN Tenz is hosting a Meet & Greet at this years GameCon! Date: 10/22 Time: 12:00 PM to 2:00 PM" : detailsDivOutputOne.innerHTML = "";
 			}
 			const showGuestTwo = () =>
 			{
 				showingGuestTwo = !showingGuestTwo;
-				showingGuestTwo ? detailsDivOutputTwo.innerHTML = "nintendo daddy" : detailsDivOutputTwo.innerHTML = "";
-			}
-			const showGuestThree = () =>
-			{
-				showingGuestThree = !showingGuestThree;
-				showingGuestThree ? detailsDivOutputThree.innerHTML = "who the fuck" : detailsDivOutputThree.innerHTML = "";
+				showingGuestTwo ? detailsDivOutputTwo.innerHTML = "Shigeru Miyamoto, the face of Nintendo talks about the future of Nintendo. Date: 10/20 Time: 1:00 PM to 3:00 PM" : detailsDivOutputTwo.innerHTML = "";
 			}
 		</script>
 	</head>
@@ -65,6 +59,7 @@
 				<div id = "showDetailsDiv">
 					<img id = "showArrow" onclick = "showGuestOne();" src = "../showArrow.png"/>
 				</div>
+				<h4 id = "guestName">SEN Tenz</h4>
 				<div id = "detailsDivOne"><p></p></div>
 			</div>
 			<div id = "clear"></div>
@@ -75,6 +70,7 @@
 				<div id = "showDetailsDiv">
 					<img id = "showArrow" onclick = "showGuestTwo();" src = "../showArrow.png"/>
 				</div>
+				<h4 id = "guestName">Shigeru Miyamoto</h4>
 				<div id = "detailsDivTwo"><p></p></div>
 			</div>
 		</div>

@@ -82,19 +82,14 @@ h1
 }
 #detailsDivOne
 {
-    padding-top: 10px;
+    padding-top: 30px;
     width: 600px;
     float: left;
     color: white;
 }
 #detailsDivTwo
 {
-    width: 600px;
-    float:left;
-    color:white;
-}
-#detailsDivThree
-{ 
+    padding-top: 30px;
     width: 600px;
     float:left;
     color:white;
@@ -102,6 +97,7 @@ h1
 #guestName
 {
     margin-top:100px;
+    color: white;
 }
 #guestImageDiv
 {
