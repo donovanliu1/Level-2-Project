@@ -82,14 +82,14 @@ h1
 }
 #detailsDivOne
 {
-    padding-top: 30px;
+    padding-top: 0px;
     width: 600px;
     float: left;
     color: white;
 }
 #detailsDivTwo
 {
-    padding-top: 30px;
+    padding-top: 0px;
     width: 600px;
     float:left;
     color:white;
@@ -123,4 +123,8 @@ h1
 #miyamoto
 {
     width:75%;
+}
+h1
+{
+    color:white;
 }
