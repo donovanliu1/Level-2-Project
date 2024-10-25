@@ -19,7 +19,7 @@
 			const initialize = () =>
 			{
 				datesOutput = document.getElementById("dates");
-				dates.innerHTML = `${date1} to ${date2}`;
+				datesOutput.innerHTML = `${date1} to ${date2}`;
 			}
 		</script>
 	</head>
@@ -27,7 +27,9 @@
 	<body>
 		<div id = "header">
 			<div id = "smallLogoDiv">
-				<img id = "smallLogo" src = "../GameConSmallLogo.png"/>
+				<a href = "home.html">
+					<img id = "smallLogo" src = "../GameConSmallLogo.png"/>
+				</a>
 			</div>
 			<span>
 				<a href = "home.html">Home</a>

@@ -40,8 +40,10 @@ a
 #smallLogo
 {
     display: block;
-    width: 35%;
+    width: 25%;
     height: auto;
+    margin-bottom:30px;
+    float:left;
 }
 #logoDiv
 {
